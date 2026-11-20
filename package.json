@@ -1,0 +1,19 @@
+{
+  "name": "shuffle-plus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "spotikit-kit build",
+    "dev": "spotikit-kit dev",
+    "check": "spotikit-kit check",
+    "pack": "spotikit-kit pack"
+  },
+  "devDependencies": {
+    "spotikit-kit": "^0.9.0",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
